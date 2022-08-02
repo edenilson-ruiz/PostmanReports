@@ -21,7 +21,7 @@
 									"",
 									"//we created at least one booking at the folder level, so there should always be bookings",
 									"pm.test(\"Response is not empty\", function () {",
-									"    // See Chaijs docs for complete list of available assertions",
+									"    // See Chaijs docs for complete list of available assertions EDR",
 									"    // https://www.chaijs.com/api/bdd",
 									"    pm.expect(jsonData).to.not.have.lengthOf(0);",
 									"});",
