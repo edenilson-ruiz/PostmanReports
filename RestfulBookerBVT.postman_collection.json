@@ -544,7 +544,6 @@
 									"    pm.expect(booking.depositpaid, \"unexpected depositpaid\").to.eql(pm.variables.get(\"depositpaid\"));",
 									"    pm.expect(booking.bookingdates.checkin, \"unexpected checkin\").to.eql(pm.variables.get(\"checkin\"));",
 									"    pm.expect(booking.bookingdates.checkout, \"unexpected checkout\").to.eql(pm.variables.get(\"checkout\"));",
-									"    pm.expect(booking.additionalneeds, \"unexpected additionalneeds\").to.eql(pm.variables.get(\"additionalneeds\"));",
 									"});"
 								],
 								"type": "text/javascript"
