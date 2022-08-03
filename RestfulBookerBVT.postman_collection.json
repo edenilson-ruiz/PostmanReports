@@ -536,7 +536,7 @@
 									"    pm.response.to.have.status(200);",
 									"});",
 									"",
-									"pm.test(\"Response booking is correct fixed\", function () {",
+									"pm.test(\"Response booking is correct fixed 20220802 1807\", function () {",
 									"    var booking = pm.response.json().booking;",
 									"    pm.expect(booking.firstname, \"unexpected firstname\").to.eql(pm.variables.get(\"firstname\"));",
 									"    pm.expect(booking.lastname, \"unexpected lastname\").to.eql(pm.variables.get(\"lastname\"));",
